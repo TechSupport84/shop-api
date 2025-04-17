@@ -1,0 +1,12 @@
+Msql : tables 
+Mongodb : collections 
+
+product.model => Mongodb
+Products,=> Mysql 
+Products: 
+   name 
+   description
+   price,
+   image
+   category 
+   location

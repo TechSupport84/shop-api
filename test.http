@@ -1,0 +1,15 @@
+GET http://localhost:3001/api/product/
+Content-Type: application/json
+
+###
+POST  http://localhost:3001/api/product/create-product
+Content-Type: application/json
+
+  {
+  "name": "iPhone 16",
+  "description": "I like iPhone 12",
+  "price": 5002.2,
+  "image": "https://example.com/macbook.jpg",
+  "category": "Electronic",
+  "location": "Utah"
+}
